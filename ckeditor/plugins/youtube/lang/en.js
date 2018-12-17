@@ -1,0 +1,23 @@
+CKEDITOR.plugins.setLang('youtube', 'en', {
+	button : 'YouTube 동영상 퍼가기',
+	title : 'YouTube 동영상 퍼가기',
+	txtEmbed : '여기에 소스 코드 붙여 넣기',
+	txtUrl : 'YouTube 동영상 URL 붙여 넣기',
+	txtWidth : '넓이',
+	txtHeight : '높이',
+	chkRelated : '동영상 끝에 추천 동영상 표시',
+	txtStartAt : '시작 (ss 또는 mm : ss 또는 hh : mm : ss)',
+	chkPrivacy : '개인 정보 보호 강화 모드 사용',
+	chkOlderCode : '이전 소스 코드 사용',
+	chkAutoplay: '자동 재생',
+	noCode : '소스 코드 또는 URL을 입력해야합니다.',
+	invalidEmbed : '입력 한 소스 코드가 유효하지 않은 것으로 보입니다.',
+	invalidUrl : '입력 한 URL이 유효하지 않은 것 같습니다.',
+	or : '또는',
+	noWidth : '반드시 너비를 알려야합니다.',
+	invalidWidth : '유효한 너비 알리기',
+	noHeight : '높이값이 없습니다.',
+	invalidHeight : '유효한 높이 값을 적어주세요.',
+	invalidTime : '유효한 시작 시간 적어주세요.',
+	txtResponsive : '반응 형 (너비와 높이 무시, 너비에 맞게)'
+});

@@ -1,0 +1,273 @@
+
+#logo {
+	color: #fff;
+}
+
+#logo:hover {
+	text-decoration: none;
+	color: #5BC0DE;
+}
+
+#logo:visited {
+	text-decoration: none;
+}
+
+#logo:active {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.navbar-nav li {
+	top: 0px;
+	bottom: 0px;
+	margin: 0px;
+	padding: 0px;
+	height: inherit;
+}
+
+.navbar-nav li:hover {
+	background-color: #D1D0CF;
+	color: #fff;
+	height: inherit;
+}
+
+
+
+.star{
+	color:red;
+}
+.error{
+	color:red;
+}
+.badge-danger{
+	background-color: #C9302C;
+}
+
+.badge-warning{
+	background-color: #F0AD4E;
+}
+
+.badge-success{
+	background-color: #449D44;
+}
+
+.badge-info{
+	background-color: #5BC0DE;
+}
+.mPre{
+	text-align: left;
+	border: 0px #fff solid;
+	background-color: rgba(255,255,255,0.00);
+	height: auto;
+	word-break:break-all;
+
+    white-space: pre-wrap;
+}
+
+
+ 
+ /* 로딩 이미 서치 */
+
+#loading {
+ width: 100%;  
+ height: 100%;  
+ top: 0px;
+ left: 0px;
+ position: fixed;  
+ display: block;  
+ /*
+  * 
+  opacity: 0.7;
+     
+  */
+ background: url(/resources/images/big-loader.svg) center center no-repeat #5699dd; 
+ 
+ background-color:#5699dd;
+ z-index: 9999999;  
+ text-align: center;
+ 
+ }
+ 
+ @media screen and (min-width:600px) {
+	#loading {
+	 background: url(/resources/images/big-loader.svg) center center no-repeat #5699dd; 	 
+	 }
+}
+@media screen and (max-width:599px) {
+	#loading {
+	 background: url(/resources/images/45.svg) center center no-repeat #5699dd; 	 
+	 }
+}
+  
+  
+#loading-image {  
+ position: absolute;  
+ top: 50%;  
+ left: 50%; 
+ z-index: 100000000; 
+ }
+ 
+ 
+  /* 관리자 지역별 결혼 예정 로딩 이미 서치 */
+ 
+#loading2 {
+ width: 100%;  
+ height: 100%;  
+ top: 0px;
+ left: 0px;
+ position: fixed;  
+ display: block;  
+ /*
+  * 
+  opacity: 0.7;
+     
+  */
+ background: url(/resources/images/big-loader2.svg) center center no-repeat #5699dd; 
+ 
+ background-color:#5699dd;
+ z-index: 9999999;  
+ text-align: center;
+ 
+ }
+ 
+ @media screen and (min-width:600px) {
+	#loading2 {
+	 background: url(/resources/images/big-loader2.svg) center center no-repeat #5699dd; 	 
+	 }
+}
+@media screen and (max-width:599px) {
+	#loading2 {
+	 background: url(/resources/images/45.svg) center center no-repeat #5699dd; 	 
+	 }
+}
+  
+  
+#loading-image {  
+ position: absolute;  
+ top: 50%;  
+ left: 50%; 
+ z-index: 100000000; 
+ }
+  
+ 
+ 
+ .overlay{
+ 	position: fixed;
+ 	width: 100%;
+ 	height: 100%;
+ 	left:0;
+ 	top:0;
+ 	background: #5699dd;
+ 	z-index:10;
+ 	text-align: center;
+ 	
+ 	color:#fff;
+ 	display: table;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+  /* 33 관리자 지역별 결혼 예정 로딩 이미 서치 */
+ 
+#loading3 {
+ width: 100%;  
+ height: 100%;  
+ top: 0px;
+ left: 0px;
+ position: fixed;  
+ display: block;  
+ /*
+  * 
+  opacity: 0.7;
+     
+  */
+ background: url(/resources/images/big-loader3.svg) center center no-repeat #5699dd; 
+ 
+ background-color:#5699dd;
+ z-index: 9999999;  
+ text-align: center;
+ 
+ }
+ 
+ @media screen and (min-width:600px) {
+	#loading2 {
+	 background: url(/resources/images/big-loader3.svg) center center no-repeat #5699dd; 	 
+	 }
+}
+@media screen and (max-width:599px) {
+	#loading2 {
+	 background: url(/resources/images/45.svg) center center no-repeat #5699dd; 	 
+	 }
+}
+  
+  
+#loading-image {  
+ position: absolute;  
+ top: 50%;  
+ left: 50%; 
+ z-index: 100000000; 
+ }
+  
+ 
+ 
+ .overlay{
+ 	position: fixed;
+ 	width: 100%;
+ 	height: 100%;
+ 	left:0;
+ 	top:0;
+ 	background: #5699dd;
+ 	z-index:10;
+ 	text-align: center;
+ 	
+ 	color:#fff;
+ 	display: table;
+ }
+ 
+  
+ 
+ /* 글자수 제한 */
+ 
+ 
+.mywrap {
+    width: 300px;
+    height: auto;
+    position: relative;
+    display: inline-block;
+}
+.mywrap textarea {
+    width: 100%;
+    resize: none;
+    min-height: 4.5em;
+    line-height:1.6em;
+    max-height: 9em;
+}
+.mywrap span {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+#mycounter {
+  background:rgba(255,0,0,0.5);
+  border-radius: 0.5em;
+  padding: 0 .5em 0 .5em;
+  font-size: 0.75em;
+}
+ 
+#mycounter2{
+ 
+   background:rgba(255,0,0,0.5);
+  border-radius: 0.5em;
+  padding: 0 .5em 0 .5em;
+  font-size: 0.75em;
+ }
+ 
+ 
+ 
+ 
+.navbar-nav .active > a{		
+	background-color: #D1D0CF;
+} 
